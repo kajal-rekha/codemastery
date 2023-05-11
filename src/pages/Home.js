@@ -5,7 +5,6 @@ import CourseProgress from "./CourseProgress";
 import ProjectGallery from "./ProjectGallery";
 import Support from "./Support";
 import LearnersFeedback from "./LearnersFeedback";
-//import Projects from "./Projects";
 
 const Home = () => {
   return (
@@ -13,12 +12,10 @@ const Home = () => {
       <Hero />
       <About />
       <ProjectGallery />
-      {/* <Projects /> */}
       <CourseProgress />
-
-      <LearnersFeedback />
-      <Support />
       <CourseInstructor />
+      <Support />
+      <LearnersFeedback />
     </div>
   );
 };
