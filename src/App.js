@@ -7,9 +7,9 @@ import Home from "./pages/Home";
 import Projects from "./pages/Projects";
 import CourseInstructor from "./pages/CourseInstructor";
 import ProjectGallery from "./pages/ProjectGallery";
-import LearnersOpenion from "./pages/LearnersOpenion";
 import Support from "./pages/Support";
 import CourseProgress from "./pages/CourseProgress";
+import LearnersFeedback from "./pages/LearnersFeedback";
 
 const App = () => {
   return (
@@ -22,7 +22,7 @@ const App = () => {
         <Route path="/project-gallery" element={<ProjectGallery />} />
         <Route path="/courseprogress" element={<CourseProgress />} />
         <Route path="/instructor" element={<CourseInstructor />} />
-        <Route path="/openion" element={<LearnersOpenion />} />
+        <Route path="/feedback" element={<LearnersFeedback />} />
         <Route path="/support" element={<Support />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>

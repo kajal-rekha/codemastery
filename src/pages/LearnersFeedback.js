@@ -1,8 +1,8 @@
-const LearnersOpenion = () => {
+const LearnersFeedback = () => {
   return (
     <div className="mt-32 mx-auto container">
       <h2 className="text-center text-6xl  underline underline-offset-4">
-        The opinion of learners about the course
+        The Feedback of learners about the course
       </h2>
       <div className="learners grid grid-cols-3 gap-10 mt-20">
         <div className="learner overflow-hidden bg-slate-900  rounded-2xl shadow-xl p-5 border-2 border-slate-800">
@@ -225,4 +225,4 @@ const LearnersOpenion = () => {
   );
 };
 
-export default LearnersOpenion;
+export default LearnersFeedback;

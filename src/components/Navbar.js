@@ -34,10 +34,10 @@ const Navbar = () => {
           </Link>
 
           <Link
-            to="/openion"
+            to="/feedback"
             className="nav-link hover:text-teal-500 duration-300"
           >
-            Openion
+            Feedback
           </Link>
           <Link
             to="/support"
