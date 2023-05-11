@@ -119,6 +119,15 @@ const data = [
       "This is a photography website built using HTML and CSS. It features a responsive design, a gallery of high-quality photographs, and an about page to learn more about the photographers. This website is perfect for photography enthusiasts looking for inspiration or for photographers looking to showcase their work online.",
     tools: ["HTML", "CSS"],
   },
+  {
+    id: 12,
+    title: "Antiques Holder.",
+    img: "https://res.cloudinary.com/dh0ado2ir/image/upload/v1683806122/Screenshot_2_r9yh7v.png",
+    live: "https://antiques-holder.netlify.app/",
+    description:
+      "Antiques Holder is a platform that allows users to view and keep track of antique items they own or are interested in. It provides a virtual space where users can showcase their antique items and share them with others. The platform is designed to be user-friendly and easy to navigate.",
+    tools: ["React.js", "React-Router", "GSAP"],
+  },
 ];
 
 const Projects = () => {
