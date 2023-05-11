@@ -2,11 +2,11 @@ import { Link } from "react-router-dom";
 
 const Support = () => {
   return (
-    <div className="support-team container mx-auto mt-20">
+    <div className="support-team container mx-auto mt-36">
       <h2 className="text-5xl text-center underline underline-offset-4">
         All time support
       </h2>
-      <div className="support grid grid-cols-2 mt-10">
+      <div className="support grid grid-cols-1 lg:grid-cols-2 mt-14">
         <div className="left">
           <img
             src="https://static.wixstatic.com/media/191815_5d9d3ff1ad894e96a2f0a86681563555~mv2.gif"
@@ -15,10 +15,11 @@ const Support = () => {
           />
         </div>
         <div className="right">
-          <h3 className="text-5xl mt-10">
-            Is present for round-the-clock support messanger group
-          </h3>
-          <p className="text-xl mt-5">
+          <h2 className="text-5xl mt-10">
+            present for <span className="text-teal-500">round-the-clock </span>{" "}
+            support <span className="text-teal-500">messanger</span> group
+          </h2>
+          <p className="text-lg mt-10">
             We can receive all-time support in our Messenger course, where we
             have mentors and two CR available, as well as other members of the
             group who provide support to each other. Currently, 24-hour support

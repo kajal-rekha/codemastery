@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const ProjectGallery = () => {
   return (
-    <div className="container mx-auto mt-20">
+    <div className="container mx-auto mt-36">
       <h2 className="text-center text-5xl mb-20 underline">Project Gallery</h2>
       <div className="project-gallery grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 ">
         <div className="gallery ">
