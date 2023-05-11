@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <div className="navbar container mx-auto lg:h-24 h-28 flex flex-col  justify-center lg:flex-row lg:justify-between items-center border-b border-teal-900 ">
-      <div className="left flex flex-row ">
+      <div className="left flex">
         <span className="text-2xl text-gray-100 font-semibold">
           Code<span className="text-teal-500">mastery</span>
         </span>
@@ -37,7 +37,7 @@ const Navbar = () => {
             to="/openion"
             className="nav-link hover:text-teal-500 duration-300"
           >
-            openion
+            Openion
           </Link>
           <Link
             to="/support"
