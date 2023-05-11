@@ -12,7 +12,7 @@ const About = () => {
           />
         </div>
         <div className="about-right">
-          <p className="mb-10 text-4xl">
+          <p className="mb-10 text-5xl">
             This is a full-free{" "}
             <span className="text-teal-500 text-5xl">web development</span>{" "}
             course based on React.js

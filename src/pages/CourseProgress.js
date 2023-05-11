@@ -4,7 +4,7 @@ const Progress = () => {
       <h2 className="text-5xl text-center mt-20">
         The way our course is progressing
       </h2>
-      <p className=" justify-center text-center">
+      <p className="justify-center text-center mt-5">
         How we can help you become a skilled Mernstack developer.
       </p>
 

@@ -3,9 +3,11 @@ const Hero = () => {
     <div className="home container mx-auto  " id="home">
       <div className="home-wrapper mt-40  grid grid-cols-1 lg:grid-cols-2 gap-40  overflow-hidden">
         <div className="home-left">
-          <p className="mb-10 text-6xl">
+          <p className="mb-10 text-5xl lg:text-6xl">
             This is a best{" "}
-            <span className="text-teal-500 text-6xl italic">online</span>{" "}
+            <span className="text-teal-500 text-5xl lg:text-6xl italic">
+              online
+            </span>{" "}
             courses from React.js Development
             <span className="text-teal-500">(A3)</span>
           </p>
