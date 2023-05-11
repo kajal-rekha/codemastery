@@ -1,15 +1,15 @@
 const Progress = () => {
   return (
     <div className="progress container mx-auto mt-40 ">
-      <h2 className="text-5xl text-center mt-20">
+      <h2 className="text-5xl text-center">
         The way our course is progressing
       </h2>
-      <p className="justify-center text-center mt-5">
+      <p className="text-center mt-5">
         How we can help you become a skilled Mernstack developer.
       </p>
 
-      <div className="course container grid grid-cols-1 xl:grid-cols-5 overflow-hidden gap-20 mt-20 ">
-        <div className="left  xl:col-span-3 flex flex-col gap-10 ">
+      <div className="course container grid grid-cols-1 lg:grid-cols-5 overflow-hidden gap-20 mt-0 lg:mt-20 ">
+        <div className="left lg:col-span-3 flex flex-col gap-10 ">
           <span className="text-6xl lg:text-8xl text-white ">01</span>
           <h3 className="uppercase text-4xl leading-relaxed text-teal-400">
             The method of teaching project-based learning step by step.
@@ -25,24 +25,25 @@ const Progress = () => {
             in students.
           </p>
         </div>
-        <div className="right xl:col-span-2 xl:justify-self-end row-start-1 xl:row-auto ">
+        <div className="right lg:col-span-2 lg:justify-self-end row-start-1 lg:row-auto mt-24 lg:mt-32">
           <img
-            src="https://www.a2nacademy.com/a2n_assets/img/react-course/react-course.webp"
+            src="https://www.betasofttechnology.com/wp-content/uploads/2022/03/react-banner1.png"
             alt="react-image"
-            className="w-full mt-32"
+            className="w-full"
           />
         </div>
       </div>
+
       <div className="course container grid grid-cols-1 xl:grid-cols-5 overflow-hidden gap-20 mt-20 ">
-        <div className="right xl:col-span-2 xl:justify-self-end row-start-1 xl:row-auto">
+        <div className="right xl:col-span-2 xl:justify-self-end row-start-1 xl:row-auto mt-12 lg:mt-32">
           <img
-            src="https://www.xebiaacademyglobal.com/uploads/courses/course_images/1643087140_dfb5a7f6534a9dd1b204.webp"
+            src="https://sc04.alicdn.com/kf/A1f4f310ce14e4ab39acd3ade231014fa0.png"
             alt="react-image"
-            className="w-full mt-20"
+            className="w-full"
           />
         </div>
 
-        <div className="left  xl:col-span-3 flex flex-col gap-10 mt-20">
+        <div className="left xl:col-span-3 flex flex-col gap-10 mt-20">
           <span className="text-6xl lg:text-8xl text-white">02</span>
           <h3 className="uppercase text-4xl leading-relaxed text-teal-400">
             The opportunity to verify oneself through an examination.
@@ -77,21 +78,21 @@ const Progress = () => {
             test-takers. Be patient and wait for the results to be released.
           </p>
         </div>
-        <div className="right xl:col-span-2 xl:justify-self-end row-start-1 xl:row-auto">
+        <div className="right xl:col-span-2 xl:justify-self-end row-start-1 xl:row-auto mt-24 lg:mt-32">
           <img
             src="https://nextbigtechnology.com/wp-content/uploads/2022/03/React_Development_Solution_img.png"
             alt="react-image"
-            className="w-full mt-20"
+            className="w-full"
           />
         </div>
       </div>
 
       <div className="course container grid grid-cols-1 xl:grid-cols-5 overflow-hidden gap-20 mt-20 ">
-        <div className="right xl:col-span-2 xl:justify-self-end row-start-1 xl:row-auto">
+        <div className="right xl:col-span-2 xl:justify-self-end row-start-1 xl:row-auto mt-12 lg:mt-24">
           <img
             src="https://nextbigtechnology.com/wp-content/uploads/2022/05/Messaging_App_Development_Solution-_img.png"
             alt="react-image"
-            className="w-full mt-20"
+            className="w-[35rem]"
           />
         </div>
 
