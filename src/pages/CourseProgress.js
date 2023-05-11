@@ -10,11 +10,11 @@ const Progress = () => {
 
       <div className="course container grid grid-cols-1 xl:grid-cols-5 overflow-hidden gap-20 mt-20 ">
         <div className="left  xl:col-span-3 flex flex-col gap-10 ">
-          <span className="text-8xl text-white ">01</span>
+          <span className="text-6xl lg:text-8xl text-white ">01</span>
           <h3 className="uppercase text-4xl leading-relaxed text-teal-400">
             The method of teaching project-based learning step by step.
           </h3>
-          <p className="text-white/75">
+          <p className="text-white/75 text-lg">
             Project-based learning is a student-centered approach to teaching
             that emphasizes hands-on learning and real-world problem-solving. To
             implement this method, educators typically follow a step-by-step
@@ -43,11 +43,11 @@ const Progress = () => {
         </div>
 
         <div className="left  xl:col-span-3 flex flex-col gap-10 mt-20">
-          <span className="text-8xl text-white   end">02</span>
+          <span className="text-6xl lg:text-8xl text-white">02</span>
           <h3 className="uppercase text-4xl leading-relaxed text-teal-400">
             The opportunity to verify oneself through an examination.
           </h3>
-          <p className="text-white/75">
+          <p className="text-white/75 text-lg">
             Examinations are commonly used as a method of evaluating a person's
             knowledge and skills in a particular subject or field. They can
             provide a valuable opportunity for individuals to assess their own
@@ -64,11 +64,11 @@ const Progress = () => {
 
       <div className="course container grid grid-cols-1 xl:grid-cols-5 overflow-hidden gap-20 mt-20 ">
         <div className="left  xl:col-span-3 flex flex-col gap-10 ">
-          <span className="text-8xl text-white ">03</span>
+          <span className="text-6xl lg:text-8xl text-white">03</span>
           <h3 className="uppercase text-4xl leading-relaxed text-teal-400">
             The correct solution to the question is available after the exam.
           </h3>
-          <p className="text-white/75">
+          <p className="text-white/75 text-lg">
             After taking an exam, it's common to wonder how you did and what the
             correct answers were. However, it's important to remember that the
             correct solution to the question is usually not available until
@@ -96,12 +96,12 @@ const Progress = () => {
         </div>
 
         <div className="left  xl:col-span-3 flex flex-col gap-10 ">
-          <span className="text-8xl text-white   end">04</span>
+          <span className="text-6xl lg:text-8xl text-white">04</span>
           <h3 className="uppercase text-4xl leading-relaxed text-teal-400">
             There are Discord support and messenger groups available for
             assistance if you get stuck.
           </h3>
-          <p className="text-white/75">
+          <p className="text-white/75 text-lg">
             If you encounter any problem during the course, or get stuck
             somewhere, you can post your question on our Discord support channel
             or messanger group. If any complex problem cannot be solved through

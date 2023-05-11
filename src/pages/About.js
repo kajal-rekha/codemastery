@@ -1,9 +1,9 @@
 const About = () => {
   return (
     <div className="about container mx-auto mt-20 " id="about">
-      <h1 className="text-gray-100 text-5xl text-center underline underline-offset-8 ">
+      <h2 className="text-gray-100 text-5xl text-center underline underline-offset-8 ">
         our course description
-      </h1>
+      </h2>
       <div className="about-wrapper mt-40 grid grid-cols-1 lg:grid-cols-2 gap-20 overflow-hidden">
         <div className="about-left">
           <img
