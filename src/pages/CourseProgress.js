@@ -1,6 +1,6 @@
 const Progress = () => {
   return (
-    <div className="howdoes container mx-auto mt-40 ">
+    <div className="progress container mx-auto mt-40 ">
       <h2 className="text-5xl text-center mt-20">
         The way our course is progressing
       </h2>

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const Support = () => {
   return (
     <div className="support-team container mx-auto mt-20">
-      <h2 className="text-6xl text-center underline underline-offset-4">
+      <h2 className="text-5xl text-center underline underline-offset-4">
         All time support
       </h2>
       <div className="support grid grid-cols-2 mt-10">
@@ -26,7 +26,7 @@ const Support = () => {
             discussed topics every day and get answers in group.
           </p>
           <button className="button mt-10 text-lg border py-3 px-8 capitalize border-white/20 rounded-full hover:border-teal-400/20 hover:bg-teal-400/20 duration-500">
-            <a href="https://www.facebook.com/messages/t/5454077781363318">
+            <a href="https://www.facebook.com/groups/2231695436989063">
               support group
             </a>
           </button>

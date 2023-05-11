@@ -1,7 +1,7 @@
 const LearnersFeedback = () => {
   return (
     <div className="mt-32 mx-auto container">
-      <h2 className="text-center text-6xl  underline underline-offset-4">
+      <h2 className="text-center text-5xl  underline underline-offset-4">
         The Feedback of learners about the course
       </h2>
 
