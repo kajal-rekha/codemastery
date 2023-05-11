@@ -11,7 +11,7 @@ const Hero = () => {
           </p>
           <p className="text-3xl underline">are you ready to learn?</p>
           <a
-            href="https://www.youtube.com/watch?v=ImVuFavPoJM"
+            href="https://www.youtube.com/watch?v=_kguGl2xsKM"
             target="_blank"
             rel="noreferrrer"
             className="inline-block mt-10 uppercase py-4 px-6 border border-white/20 rounded-full hover:border-teal-400/20 hover:bg-teal-400/20 duration-500"

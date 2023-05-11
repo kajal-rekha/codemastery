@@ -4,6 +4,7 @@ const LearnersFeedback = () => {
       <h2 className="text-center text-6xl  underline underline-offset-4">
         The Feedback of learners about the course
       </h2>
+
       <div className="learners grid grid-cols-3 gap-10 mt-20">
         <div className="learner overflow-hidden bg-slate-900  rounded-2xl shadow-xl p-5 border-2 border-slate-800">
           <div className="flex gap-5">
@@ -14,6 +15,7 @@ const LearnersFeedback = () => {
             />
             <h3>Kajal Rekha</h3>
           </div>
+
           <p className="ml-16">⭐⭐⭐⭐⭐</p>
           <p className="ml-16">
             I have seen a very good AI course, an exceptional one. And our
@@ -23,6 +25,7 @@ const LearnersFeedback = () => {
             you.
           </p>
         </div>
+
         <div className="learner overflow-hidden bg-slate-900  rounded-2xl shadow-xl p-5 border-2 border-slate-800">
           <div className="flex gap-5">
             <img
@@ -41,6 +44,7 @@ const LearnersFeedback = () => {
             community.
           </p>
         </div>
+
         <div className="learner overflow-hidden bg-slate-900  rounded-2xl shadow-xl p-5 border-2 border-slate-800">
           <div className="flex gap-5">
             <img
@@ -50,6 +54,7 @@ const LearnersFeedback = () => {
             />
             <h3>Masud Rana Shawon</h3>
           </div>
+
           <p className="ml-16">⭐⭐⭐⭐⭐</p>
           <p className="ml-16">
             I am able to learn everything about Redux within a very short time,

@@ -34,11 +34,12 @@ const Navbar = () => {
           </Link>
 
           <Link
-            to="/feedback"
-            className="nav-link hover:text-teal-500 duration-300"
+            to="/instructor"
+            className="nav-link hover:text-teal-500  duration-300"
           >
-            Feedback
+            Instructor
           </Link>
+
           <Link
             to="/support"
             className="nav-link hover:text-teal-500  duration-300"
@@ -46,11 +47,12 @@ const Navbar = () => {
             Support
           </Link>
           <Link
-            to="/instructor"
-            className="nav-link hover:text-teal-500  duration-300"
+            to="/feedback"
+            className="nav-link hover:text-teal-500 duration-300"
           >
-            Instructor
+            Feedback
           </Link>
+
           <Link
             to="/contact"
             className="nav-link hover:text-teal-500  duration-300"
