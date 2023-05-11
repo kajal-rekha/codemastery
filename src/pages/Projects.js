@@ -133,10 +133,10 @@ const data = [
 const Projects = () => {
   return (
     <div className="projects container mx-auto mt-20" id="projects">
-      <h2 className="text-gray-100 text-7xl text-center underline underline-offset-8">
+      <h2 className="text-gray-100 text-5xl lg:7xl text-center underline underline-offset-8">
         All Projects
       </h2>
-      <p className="text-3xl text-center  pt-10">
+      <p className="text-3xl text-center  pt-8">
         Some parts of the projects that have been done so far in the course
       </p>
       <div className="projects-wrapper mt-40 flex flex-col gap-40 ">
