@@ -15,7 +15,7 @@ const Support = () => {
           />
         </div>
         <div className="right">
-          <h2 className="text-5xl mt-10">
+          <h2 className="text-4xl lg:text-5xl mt-10">
             present for <span className="text-teal-500">round-the-clock </span>{" "}
             support <span className="text-teal-500">messanger</span> group
           </h2>
