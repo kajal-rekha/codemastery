@@ -10,11 +10,14 @@ import ProjectGallery from "./pages/ProjectGallery";
 import Support from "./pages/Support";
 import CourseProgress from "./pages/CourseProgress";
 import LearnersFeedback from "./pages/LearnersFeedback";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const App = () => {
   return (
     <div className="app bg-slate-900  text-slate-100 min-h-screen">
       <Navbar />
+      <ToastContainer />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />

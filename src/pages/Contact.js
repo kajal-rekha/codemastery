@@ -1,5 +1,6 @@
 import emailjs from "@emailjs/browser";
 import { useRef } from "react";
+import { toast } from "react-toastify";
 
 const Contact = () => {
   const formRef = useRef(null);
@@ -18,10 +19,28 @@ const Contact = () => {
       )
       .then(
         () => {
-          console.log("Your message sent!");
+          toast.success("Your message sent!", {
+            position: "bottom-left",
+            autoClose: 5000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            theme: "dark",
+          });
         },
         () => {
-          console.log("Failed, please try again later!");
+          toast.error("Failed, please try again later!", {
+            position: "bottom-left",
+            autoClose: 5000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            theme: "dark",
+          });
         }
       );
     // reset
@@ -46,6 +65,7 @@ const Contact = () => {
             type="name"
             name="name"
             placeholder="write your name"
+            required
             className="name bg-transparent border border-gray-600 focus:border-gray-300 py-4 px-6 rounded-xl outline-none duration-300"
           />
         </div>
@@ -57,6 +77,7 @@ const Contact = () => {
             type="email"
             name="email"
             placeholder="write your email"
+            required
             className=" email bg-transparent border border-gray-600 focus:border-gray-300 py-4 px-6 rounded-xl outline-none duration-300"
           />
         </div>
@@ -67,6 +88,7 @@ const Contact = () => {
           </label>
           <textarea
             placeholder="Write your message"
+            required
             name="message"
             rows="1"
             cols="30"
