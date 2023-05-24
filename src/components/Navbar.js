@@ -24,7 +24,7 @@ const Navbar = () => {
         </span>
       </div>
 
-      <div className="right">
+      <div className="left">
         <nav
           className={`${
             toggleOpen
@@ -83,10 +83,10 @@ const Navbar = () => {
         </nav>
       </div>
 
-      <div className="subscribe">
+      <div className="right">
         <a
           href="https://www.youtube.com/@spectra.shohan"
-          className=" text-lg hover:text-teal-500 hover:underline hover:underline-offset-2 duration-300"
+          className=" hover:text-teal-500 hover:underline hover:underline-offset-2 duration-300"
         >
           Subscribe
         </a>

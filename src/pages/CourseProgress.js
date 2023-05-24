@@ -27,8 +27,7 @@ const Progress = () => {
         </div>
         <div className="right lg:col-span-2 lg:justify-self-end row-start-1 lg:row-auto mt-24 lg:mt-32">
           <img
-            src="https://www.betasofttechnology.com/wp-content/uploads/2022/03/react-banner1.png"
-            alt="react-image"
+            src="https://res.cloudinary.com/dh0ado2ir/image/upload/v1684898234/ES6_jdnyf1.png"
             className="w-full"
           />
         </div>
@@ -37,7 +36,7 @@ const Progress = () => {
       <div className="course container grid grid-cols-1 xl:grid-cols-5 overflow-hidden gap-20 mt-20 ">
         <div className="right xl:col-span-2 xl:justify-self-end row-start-1 xl:row-auto mt-12 lg:mt-32">
           <img
-            src="https://sc04.alicdn.com/kf/A1f4f310ce14e4ab39acd3ade231014fa0.png"
+            src="https://res.cloudinary.com/dh0ado2ir/image/upload/v1684898261/course_details_veip9e.png"
             alt="react-image"
             className="w-full"
           />
@@ -80,7 +79,7 @@ const Progress = () => {
         </div>
         <div className="right xl:col-span-2 xl:justify-self-end row-start-1 xl:row-auto mt-24 lg:mt-32">
           <img
-            src="https://nextbigtechnology.com/wp-content/uploads/2022/03/React_Development_Solution_img.png"
+            src="https://res.cloudinary.com/dh0ado2ir/image/upload/v1684898288/InfyTQ-Coding-Questions-and-solutions-2022-23_nbhnfv.webp"
             alt="react-image"
             className="w-full"
           />
@@ -90,7 +89,7 @@ const Progress = () => {
       <div className="course container grid grid-cols-1 xl:grid-cols-5 overflow-hidden gap-20 mt-20 ">
         <div className="right xl:col-span-2 xl:justify-self-end row-start-1 xl:row-auto mt-12 lg:mt-24">
           <img
-            src="https://nextbigtechnology.com/wp-content/uploads/2022/05/Messaging_App_Development_Solution-_img.png"
+            src="https://res.cloudinary.com/dh0ado2ir/image/upload/v1684898322/Messaging_App_Development_Solution-_img_jjsl5s.png"
             alt="react-image"
             className="w-[35rem]"
           />

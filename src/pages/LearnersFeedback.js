@@ -38,7 +38,7 @@ const data = [
     id: 5,
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7tiwKpXF8435JMLE1OpvTQThdlArIXOGjmBf43x8LxQEcQ0j60JALNmqCRCWVv_IyqEY&usqp=CAU",
-    name: "Dip Singha",
+    name: "Amir Khan Sumon",
     star: "⭐⭐⭐⭐⭐",
     description:
       "In one word, the design of the course is done in such a way that there is no way to leave without learning. Along with teaching the course, it also offers a competitive platform where the acquired knowledge can be tested. Support is available 24 hours a day, 7 days a week.",

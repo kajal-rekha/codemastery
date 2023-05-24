@@ -7,8 +7,8 @@ const About = () => {
       <div className="about-wrapper mt-40 grid grid-cols-1 lg:grid-cols-2 gap-20 overflow-hidden">
         <div className="about-left">
           <img
-            src="https://www.csiknowledgehub.in/wp-content/uploads/2023/01/react-js.png"
-            alt=""
+            src="https://res.cloudinary.com/dh0ado2ir/image/upload/v1684898169/react-js_cpj2cr.png"
+            alt="react-image"
           />
         </div>
         <div className="about-right">

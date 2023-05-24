@@ -20,7 +20,7 @@ const Hero = () => {
         </div>
         <div className="hero-right ">
           <img
-            src="https://www.codosphere.com/images/technology/mern-dev-img.png"
+            src="https://res.cloudinary.com/dh0ado2ir/image/upload/v1684898102/mern-dev-img_bybufq.png"
             alt=""
           />
         </div>

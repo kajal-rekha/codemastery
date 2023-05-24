@@ -5,6 +5,7 @@ import CourseProgress from "./CourseProgress";
 import ProjectGallery from "./ProjectGallery";
 import Support from "./Support";
 import LearnersFeedback from "./LearnersFeedback";
+import Contact from "./Contact";
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
       <CourseInstructor />
       <Support />
       <LearnersFeedback />
+      <Contact />
     </div>
   );
 };

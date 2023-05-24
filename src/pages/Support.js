@@ -9,8 +9,8 @@ const Support = () => {
       <div className="support grid grid-cols-1 lg:grid-cols-2 mt-14">
         <div className="left">
           <img
-            src="https://static.wixstatic.com/media/191815_5d9d3ff1ad894e96a2f0a86681563555~mv2.gif"
-            alt=""
+            src="https://res.cloudinary.com/dh0ado2ir/image/upload/v1684898350/191815_5d9d3ff1ad894e96a2f0a86681563555_mv2_utkvez.gif"
+            alt="support image"
             className="w-[30rem]"
           />
         </div>
