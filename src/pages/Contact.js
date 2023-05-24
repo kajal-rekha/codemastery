@@ -78,7 +78,7 @@ const Contact = () => {
             name="email"
             placeholder="write your email"
             required
-            className=" email bg-transparent border border-gray-600 focus:border-gray-300 py-4 px-6 rounded-xl outline-none duration-300"
+            className="email bg-transparent border border-gray-600 focus:border-gray-300 py-4 px-6 rounded-xl outline-none duration-300"
           />
         </div>
 
