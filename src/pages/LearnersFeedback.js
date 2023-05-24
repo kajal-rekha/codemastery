@@ -81,8 +81,7 @@ const data = [
   },
   {
     id: 10,
-    image:
-      "https://wallpapers.com/images/hd/single-boy-emo-smoke-place-3tz9s8h3xnxq8n3l.jpg",
+    image: "https://cdn-icons-png.flaticon.com/512/4086/4086679.png",
     name: "Abdullah Al Sayed",
     star: "⭐⭐⭐⭐⭐",
     description:
