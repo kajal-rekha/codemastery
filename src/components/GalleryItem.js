@@ -93,7 +93,9 @@ const GalleryItem = () => {
           </div>
         ))}
       </div>
-      <Link to="/projects">View details</Link>
+      <Link to="/projects" className="text-lg">
+        View details
+      </Link>
     </section>
   );
 };
