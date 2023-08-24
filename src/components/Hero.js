@@ -35,8 +35,9 @@ const Hero = () => {
         </div>
         <div
           className="hero-right w-full"
-          data-aos="fade-up"
-          data-aos-duration="1000"
+          data-aos="flip-left"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000"
         >
           <img
             src="https://res.cloudinary.com/dh0ado2ir/image/upload/v1684898102/mern-dev-img_bybufq.png"
