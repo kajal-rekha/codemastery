@@ -12,8 +12,14 @@ import CourseProgress from "./pages/CourseProgress";
 import LearnersFeedback from "./pages/LearnersFeedback";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 const App = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <div className="app   text-slate-100 min-h-screen">
       <Navbar />
