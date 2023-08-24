@@ -42,7 +42,7 @@ const Navbar = () => {
             About
           </Link>
           <Link
-            to="/project-gallery"
+            to="/gallery"
             className="nav-link hover:text-teal-500  duration-300"
           >
             Gallery

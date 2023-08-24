@@ -6,7 +6,6 @@ import Contact from "./pages/Contact";
 import Home from "./pages/Home";
 import Projects from "./pages/Projects";
 import CourseInstructor from "./pages/CourseInstructor";
-import ProjectGallery from "./pages/ProjectGallery";
 import Support from "./pages/Support";
 import CourseProgress from "./pages/CourseProgress";
 import LearnersFeedback from "./pages/LearnersFeedback";
@@ -15,6 +14,7 @@ import "react-toastify/dist/ReactToastify.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import Gallery from "./pages/Gallery";
 
 const App = () => {
   useEffect(() => {
@@ -28,7 +28,7 @@ const App = () => {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/projects" element={<Projects />} />
-        <Route path="/project-gallery" element={<ProjectGallery />} />
+        <Route path="/gallery" element={<Gallery />} />
         <Route path="/courseprogress" element={<CourseProgress />} />
         <Route path="/instructor" element={<CourseInstructor />} />
         <Route path="/feedback" element={<LearnersFeedback />} />
