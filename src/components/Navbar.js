@@ -18,13 +18,13 @@ const Navbar = () => {
 
   return (
     <div className="navbar wrapper h-20 flex justify-between items-center border-b border-teal-900 fixed top-0 left-0 right-0 z-[1000]">
-      <div className="logo">
+      <div className="logo" data-aos="fade-right" data-aos-duration="1000">
         <span className="text-2xl text-gray-100 font-semibold">
           Code<span className="text-teal-500">mastery</span>
         </span>
       </div>
 
-      <div className="left">
+      <div className="left" data-aos="fade-down" data-aos-duration="1000">
         <nav
           className={`${
             toggleOpen
@@ -83,7 +83,7 @@ const Navbar = () => {
         </nav>
       </div>
 
-      <div className="right">
+      <div className="right" data-aos="fade-left" data-aos-duration="1000">
         <a
           href="https://www.youtube.com/@spectra.shohan"
           className=" py-2 px-5 bg-teal-700 hover:bg-teal-800 rounded-lg duration-500"
