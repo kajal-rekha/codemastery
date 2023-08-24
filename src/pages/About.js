@@ -1,17 +1,17 @@
 const About = () => {
   return (
-    <div className="about container mx-auto mt-20 " id="about">
-      <h2 className="text-gray-100 text-5xl text-center underline underline-offset-8 ">
+    <div className="about wrapper section-padding mt-32 " id="about">
+      <h2 className="text-gray-100 text-4xl lg:text-5xl text-center underline underline-offset-8 mt-80 lg:mt-0">
         our course description
       </h2>
-      <div className="about-wrapper mt-40 grid grid-cols-1 lg:grid-cols-2 gap-20 overflow-hidden">
+      <div className="about-wrapper grid grid-cols-1 lg:grid-cols-2 gap-20 overflow-hidden mt-28">
         <div className="about-left">
           <img
             src="https://res.cloudinary.com/dh0ado2ir/image/upload/v1684898169/react-js_cpj2cr.png"
             alt="react-image"
           />
         </div>
-        <div className="about-right">
+        <div className="about-right row-start-1 xl:row-auto">
           <p className="mb-10 text-4xl lg:text-5xl">
             This is a full-free{" "}
             <span className="text-teal-500 ">web development</span> course based
@@ -32,7 +32,7 @@ const About = () => {
             href="https://docs.google.com/document/d/1qR6RPl4h-EsunNBigL0fwRK7im34eLKe7VJcjRU2ts0/edit?usp=sharing"
             target="_blank"
             rel="noreferrrer"
-            className="inline-block mt-10 uppercase py-5 px-8 border border-white/20 rounded-full hover:border-teal-400/20 hover:bg-teal-400/20 duration-500"
+            className="inline-block mt-10 uppercase py-3 px-6 lg:py-5 lg:px-8 border border-white/20 rounded-full hover:border-teal-400/20 hover:bg-teal-400/20 duration-500"
           >
             📸 See course outline
           </a>

@@ -1,8 +1,11 @@
 const Hero = () => {
   return (
-    <div className="home container mx-auto  " id="home">
-      <div className="home-wrapper mt-40  grid grid-cols-1 lg:grid-cols-2 gap-40  overflow-hidden">
-        <div className="home-left">
+    <div
+      className="home wrapper h-[calc(100vh-5rem)] section-padding "
+      id="home"
+    >
+      <div className="home-wrapper grid grid-cols-1 lg:grid-cols-2 gap-20 mt-40 overflow-hidden">
+        <div className="home-left ">
           <p className="mb-10 text-5xl lg:text-6xl">
             This is a best <span className="text-teal-500 italic">online</span>{" "}
             courses from React.js Development
@@ -18,10 +21,11 @@ const Hero = () => {
             🖥 See course intro video
           </a>
         </div>
-        <div className="hero-right ">
+        <div className="hero-right">
           <img
             src="https://res.cloudinary.com/dh0ado2ir/image/upload/v1684898102/mern-dev-img_bybufq.png"
-            alt=""
+            alt="hero_image"
+            className=""
           />
         </div>
       </div>

@@ -17,7 +17,7 @@ const Navbar = () => {
   }, [toggleOpen]);
 
   return (
-    <div className="navbar container mx-auto h-20 flex   justify-between items-center border-b border-teal-900">
+    <div className="navbar wrapper h-20 flex justify-between items-center border-b border-teal-900 fixed top-0 left-0 right-0 z-[1000]">
       <div className="logo">
         <span className="text-2xl text-gray-100 font-semibold">
           Code<span className="text-teal-500">mastery</span>
@@ -86,7 +86,7 @@ const Navbar = () => {
       <div className="right">
         <a
           href="https://www.youtube.com/@spectra.shohan"
-          className=" hover:text-teal-500 hover:underline hover:underline-offset-2 duration-300"
+          className=" py-2 px-5 bg-teal-700 hover:bg-teal-800 rounded-lg duration-500"
         >
           Subscribe
         </a>
