@@ -8,7 +8,7 @@ const About = () => {
       >
         our course description
       </h2>
-      <div className="about-wrapper grid grid-cols-1 lg:grid-cols-2 gap-20 overflow-hidden mt-28">
+      <div className="about-wrapper grid grid-cols-1 md:grid-cols-2 gap-20 overflow-hidden mt-28">
         <div
           className="about-left"
           data-aos="flip-left"

@@ -19,7 +19,7 @@ const data = [
   {
     id: 3,
     image:
-      "https://cdn2.sharechat.com/i'msingleboy_b15df322-b6d1-4d65-a483-75ae1cf0e462-207ba4bd-ef0a-46e6-8fbb-8a88ebb3f208_cmprsd_40.jpg",
+      "https://res.cloudinary.com/dh0ado2ir/image/upload/v1693073647/7084424_few3go.png",
     name: "Masud Rana Shawon",
     star: "⭐⭐⭐⭐⭐",
     description:
@@ -28,7 +28,7 @@ const data = [
   {
     id: 4,
     image:
-      "https://www.goodmorningimagesdownload.com/wp-content/uploads/2021/01/Single-Boys-Whatsapp-Dp-Photo-Pictures.jpg",
+      "https://res.cloudinary.com/dh0ado2ir/image/upload/v1693073218/forbidden_ubunp1.png",
     name: "Muntasir Fahim",
     star: "⭐⭐⭐⭐⭐",
     description:
@@ -64,7 +64,7 @@ const data = [
   {
     id: 8,
     image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRb21qAb0QG-YRFlqPZgDA2U4KpzdQXhmdkDQ&usqp=CAU",
+      "https://res.cloudinary.com/dh0ado2ir/image/upload/v1693073567/whegrrrreeeydks1rftx_annahs.webp",
     name: "Sakib Biswas",
     star: "⭐⭐⭐⭐⭐",
     description:
@@ -73,7 +73,7 @@ const data = [
   {
     id: 9,
     image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQr4QVfDRqNgUf1lxe6umibs0jfTQhow_KX1w&usqp=CAU",
+      "https://res.cloudinary.com/dh0ado2ir/image/upload/v1693073335/male_zgnba2.png",
     name: "Naymur Rahman",
     star: "⭐⭐⭐⭐⭐",
     description:
@@ -110,7 +110,12 @@ const data = [
 const LearnersFeedback = () => {
   return (
     <div className="mt-32 mx-auto container">
-      <h2 className="text-center text-4xl  lg:text-5xl underline underline-offset-4">
+      <h2
+        className="text-center text-4xl  lg:text-5xl underline underline-offset-4"
+        data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="1000"
+      >
         The Feedback of learners about the course
       </h2>
 
@@ -118,7 +123,10 @@ const LearnersFeedback = () => {
         {data.map((learner) => (
           <div
             key={learner.id}
-            className="learner overflow-hidden bg-slate-900  rounded-2xl shadow-xl p-5 border-2 border-slate-800 "
+            className="learner overflow-hidden bg-slate-900  rounded-2xl shadow-xl p-5 border-2 border-slate-800"
+            data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="1000"
           >
             <div className="flex gap-5">
               <img
