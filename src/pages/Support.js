@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const Support = () => {
   return (
-    <div className="support-team container mx-auto mt-36">
+    <div className="support-team weapper section-padding mt-36">
       <h2
         className="text-5xl text-center underline underline-offset-4"
         data-aos="fade-down"

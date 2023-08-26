@@ -109,7 +109,7 @@ const data = [
 
 const LearnersFeedback = () => {
   return (
-    <div className="mt-32 mx-auto container">
+    <div className="mt-32 wrapper section-padding">
       <h2
         className="text-center text-4xl  lg:text-5xl underline underline-offset-4"
         data-aos="fade-down"

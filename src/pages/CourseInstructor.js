@@ -9,7 +9,7 @@ const CourseInstructor = () => {
         Course Instructor
       </h2>
 
-      <div className="course container grid grid-cols-1 xl:grid-cols-5 overflow-hidden gap-20 mt-20 ">
+      <div className="wrapper section-padding grid grid-cols-1 xl:grid-cols-5 overflow-hidden gap-20 mt-20 ">
         <div className="left xl:col-span-3 flex flex-col gap-10 ">
           <p
             className="text-white/75 text-lg"
