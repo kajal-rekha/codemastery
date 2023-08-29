@@ -6,7 +6,7 @@ const data = [
     name: "Kajal Rekha",
     star: "⭐⭐⭐⭐⭐",
     description:
-      "I have seen a very good AI course, an exceptional one. And our mentor Shohanur Rahman is an exceptional person, an extraordinary teacher. I have learned a lot from this course, the value of which cannot be fulfilled by anything else. I will always be grateful to him.",
+      "This course is the best one I've seen. And our mentor Shohanur Rahman is an exceptional person, an extraordinary teacher. I have learned a lot from this course, the value of which cannot be fulfilled by anything else. I will always be grateful to him.",
   },
   {
     id: 2,
@@ -14,7 +14,7 @@ const data = [
     name: "Sadril Amin Shuvo",
     star: "⭐⭐⭐⭐⭐",
     description:
-      "So far, this is the most resourceful Bengali content I have come across. The way the syllabus of this course has been organized and the various reference videos used in this course, make it a complete package.I hope you will always play a significant role in our community.",
+      "This Bengali course is incredibly comprehensive, with a well-structured syllabus and diverse reference videos. It's a truly valuable resource, offering a complete learning experience that stands out for its organization and content richness.",
   },
   {
     id: 3,
@@ -23,7 +23,7 @@ const data = [
     name: "Masud Rana Shawon",
     star: "⭐⭐⭐⭐⭐",
     description:
-      "I am able to learn everything about Redux within a very short time, and it's a great achievement for me. I want to thank Shohanur Rahman for explaining everything so beautifully. Also, this course has helped me a lot in my real-life situations.",
+      "I have been able to learn everything from this course, and it's been a great accomplishment for me. I want to express my gratitude to Shohanur Rahman for explaining everything so beautifully. Additionally, this course has provided me with substantial assistance in many real-life situations.",
   },
   {
     id: 4,
@@ -32,7 +32,7 @@ const data = [
     name: "Muntasir Fahim",
     star: "⭐⭐⭐⭐⭐",
     description:
-      "In one word, the design of the course is done in such a way that there is no way to leave without learning. Along with teaching the course, it also offers a competitive platform where the acquired knowledge can be tested. Support is available 24 hours a day, 7 days a week",
+      "In one word, the design of the course is done in such a way that there is no way to leave without learning. Along with teaching the course, it also offers a competitive platform where the acquired knowledge can be tested. ",
   },
   {
     id: 5,
@@ -41,7 +41,7 @@ const data = [
     name: "Amir Khan Sumon",
     star: "⭐⭐⭐⭐⭐",
     description:
-      "In one word, the design of the course is done in such a way that there is no way to leave without learning. Along with teaching the course, it also offers a competitive platform where the acquired knowledge can be tested. Support is available 24 hours a day, 7 days a week.",
+      "In one word, the design of the course is done in such a way that there is no way to leave without learning. Along with teaching the course, it also offers a competitive platform where the acquired knowledge can be tested. ",
   },
   {
     id: 6,
@@ -50,7 +50,7 @@ const data = [
     name: "Nasim Helal",
     star: "⭐⭐⭐⭐⭐",
     description:
-      "In one word, the design of the course is done in such a way that there is no way to leave without learning. Along with teaching the course, it also offers a competitive platform where the acquired knowledge can be tested. Support is available 24 hours a day, 7 days a week.",
+      "In one word, the design of the course is done in such a way that there is no way to leave without learning. Along with teaching the course, it also offers a competitive platform where the acquired knowledge can be tested. ",
   },
   {
     id: 7,
@@ -59,7 +59,7 @@ const data = [
     name: "Shm Usuf",
     star: "⭐⭐⭐⭐⭐",
     description:
-      "In one word, the design of the course is done in such a way that there is no way to leave without learning. Along with teaching the course, it also offers a competitive platform where the acquired knowledge can be tested. Support is available 24 hours a day, 7 days a week.",
+      "In one word, the design of the course is done in such a way that there is no way to leave without learning. Along with teaching the course, it also offers a competitive platform where the acquired knowledge can be tested. ",
   },
   {
     id: 8,
@@ -68,7 +68,7 @@ const data = [
     name: "Sakib Biswas",
     star: "⭐⭐⭐⭐⭐",
     description:
-      "In one word, the design of the course is done in such a way that there is no way to leave without learning. Along with teaching the course, it also offers a competitive platform where the acquired knowledge can be tested. Support is available 24 hours a day, 7 days a week.",
+      "In one word, the design of the course is done in such a way that there is no way to leave without learning. Along with teaching the course, it also offers a competitive platform where the acquired knowledge can be tested. ",
   },
   {
     id: 9,
@@ -77,7 +77,7 @@ const data = [
     name: "Naymur Rahman",
     star: "⭐⭐⭐⭐⭐",
     description:
-      "In one word, the design of the course is done in such a way that there is no way to leave without learning. Along with teaching the course, it also offers a competitive platform where the acquired knowledge can be tested. Support is available 24 hours a day, 7 days a week.",
+      "In one word, the design of the course is done in such a way that there is no way to leave without learning. Along with teaching the course, it also offers a competitive platform where the acquired knowledge can be tested.",
   },
   {
     id: 10,
@@ -85,7 +85,7 @@ const data = [
     name: "Abdullah Al Sayed",
     star: "⭐⭐⭐⭐⭐",
     description:
-      "In one word, the design of the course is done in such a way that there is no way to leave without learning. Along with teaching the course, it also offers a competitive platform where the acquired knowledge can be tested. Support is available 24 hours a day, 7 days a week.",
+      "In one word, the design of the course is done in such a way that there is no way to leave without learning. Along with teaching the course, it also offers a competitive platform where the acquired knowledge can be tested.",
   },
   {
     id: 11,
@@ -94,7 +94,7 @@ const data = [
     name: "Ummey Saleha Sumi",
     star: "⭐⭐⭐⭐⭐",
     description:
-      "In one word, the design of the course is done in such a way that there is no way to leave without learning. Along with teaching the course, it also offers a competitive platform where the acquired knowledge can be tested. Support is available 24 hours a day, 7 days a week.",
+      "In one word, the design of the course is done in such a way that there is no way to leave without learning. Along with teaching the course, it also offers a competitive platform where the acquired knowledge can be tested.",
   },
   {
     id: 12,
@@ -103,7 +103,7 @@ const data = [
     name: "Sumaiya Rimu",
     star: "⭐⭐⭐⭐⭐",
     description:
-      "In one word, the design of the course is done in such a way that there is no way to leave without learning. Along with teaching the course, it also offers a competitive platform where the acquired knowledge can be tested. Support is available 24 hours a day, 7 days a week.",
+      "In one word, the design of the course is done in such a way that there is no way to leave without learning. Along with teaching the course, it also offers a competitive platform where the acquired knowledge can be tested.",
   },
 ];
 
