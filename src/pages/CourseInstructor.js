@@ -9,40 +9,66 @@ const CourseInstructor = () => {
         Course Instructor
       </h2>
 
-      <div className="wrapper section-padding grid grid-cols-1 xl:grid-cols-5 overflow-hidden gap-20 mt-20 ">
-        <div className="left xl:col-span-3 flex flex-col gap-10 ">
+      <div className="wrapper section-padding grid grid-cols-1 xl:grid-cols-5 overflow-hidden gap-10 mt-20 ">
+        <div className="left xl:col-span-3 flex flex-col gap-5 ">
           <p
             className="text-white/75 text-lg"
             data-aos="fade-up"
             data-aos-duration="1500"
           >
-            He is a MERN stack developer.He is specialize in building responsive
-            and user-friendly web applications that provide a seamless
-            experience for the end-user. With his in-depth knowledge of the
-            latest web development technologies and frameworks,He is able to
-            create innovative solutions that meet the needs of his clients.
-            Whether it's a simple website or a complex web application,he is
-            committed to delivering high-quality work that exceeds expectations.
-            <p data-aos="fade-up" data-aos-duration="1500">
-              In addition to his expertise in the MERN stack, He also has a
-              strong background in UI design and animation. He has experience in
-              creating smooth animations and transitions that enhance the
-              overall user experience. He also well-versed in using other design
-              tools such as Adobe XD and Figma to create wireframes and mockups.
-              His ability to combine his technical skills with his artistic eye
-              allows her to create visually appealing and functional web
-              applications that stand out in the market.
-            </p>
+            Md Shohanur Rahman is a visionary entrepreneur and a trailblazing
+            figure in the world of web development. As the founder of a highly
+            acclaimed React.js development course, he has left an indelible mark
+            on the tech industry. Rahman's journey into the world of programming
+            began with a deep-rooted passion for coding and a relentless pursuit
+            of knowledge. His insatiable curiosity and dedication led him to
+            master React.js, a JavaScript library for building user interfaces,
+            and he recognized its immense potential to revolutionize web
+            development.
+          </p>
+          <p
+            className="text-white/75 text-lg"
+            data-aos="fade-up"
+            data-aos-duration="2000"
+          >
+            With a mission to empower aspiring developers, Rahman founded his
+            React.js development course, which quickly gained recognition for
+            its comprehensive and hands-on approach to teaching. He is known for
+            his exceptional teaching abilities, breaking down complex concepts
+            into easily digestible lessons, and fostering a dynamic learning
+            environment.
+          </p>
+          <p
+            className="text-white/75 text-lg"
+            data-aos="fade-up"
+            data-aos-duration="2000"
+          >
+            Under Rahman's guidance, countless students have acquired the skills
+            needed to build interactive and responsive web applications using
+            React.js. His commitment to staying at the forefront of
+            technological advancements and sharing his expertise has made him a
+            respected authority in the field.
+          </p>
+          <p
+            className="text-white/75 text-lg"
+            data-aos="fade-up"
+            data-aos-duration="2000"
+          >
+            Md Shohanur Rahman's impact on the React.js community and his
+            dedication to nurturing the next generation of web developers make
+            him an inspirational figure in the world of web development
+            education. His work continues to shape the future of web
+            development, leaving an enduring legacy for generations to come.
           </p>
           <div className="mt-9">
             <h2
               className="font-bold text-2xl text-teal-500"
               data-aos="fade-up"
-              data-aos-duration="1500"
+              data-aos-duration="3000"
             >
               Md.Shohanur Rahman
             </h2>
-            <p data-aos="fade-up" data-aos-duration="1500">
+            <p className="text-lg" data-aos="fade-up" data-aos-duration="1500">
               Founder of React.js development course
             </p>
           </div>
