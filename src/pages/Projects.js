@@ -142,29 +142,29 @@ const data = [
 
 const Projects = () => {
   return (
-    <div className="wrapper section-padding mt-20" id="projects">
-      <h2
-        className="text-gray-100 text-5xl lg:7xl text-center underline underline-offset-8"
-        data-aos="fade-down"
-        data-aos-easing="linear"
-        data-aos-duration="2000"
-      >
-        All Projects
-      </h2>
-      <p
-        className="text-3xl text-center  pt-8"
-        data-aos="fade-down"
-        data-aos-easing="linear"
-        data-aos-duration="1000"
-      >
-        Some parts of the projects that have been done so far in the course
-      </p>
-      <div className="projects-wrapper mt-40 flex flex-col gap-40 ">
-        {data.map((project) => (
-          <Project key={project.id} project={project} />
-        ))}
+    <section className="border-b border-teal-900">
+      <div className="wrapper section-padding mt-20" id="projects">
+        <h2
+          className="text-gray-100 text-5xl lg:7xl text-center underline underline-offset-8"
+          data-aos="fade-down"
+          data-aos-duration="2000"
+        >
+          All Projects
+        </h2>
+        <p
+          className="text-3xl text-center  pt-8"
+          data-aos="fade-down"
+          data-aos-duration="1000"
+        >
+          Some parts of the projects that have been done so far in the course
+        </p>
+        <div className="projects-wrapper mt-40 flex flex-col gap-40 ">
+          {data.map((project) => (
+            <Project key={project.id} project={project} />
+          ))}
+        </div>
       </div>
-    </div>
+    </section>
   );
 };
 

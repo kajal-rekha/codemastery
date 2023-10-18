@@ -21,7 +21,7 @@ const App = () => {
     AOS.init();
   }, []);
   return (
-    <div className="app text-slate-100 min-h-screen">
+    <div className="app text-slate-100 min-h-screen bg-slate-900">
       <Navbar />
       <ToastContainer />
       <Routes>

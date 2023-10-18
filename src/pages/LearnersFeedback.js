@@ -109,42 +109,44 @@ const data = [
 
 const LearnersFeedback = () => {
   return (
-    <div className="mt-32 wrapper section-padding">
-      <h2
-        className="text-center text-4xl  lg:text-5xl underline underline-offset-4"
-        data-aos="fade-down"
-        data-aos-easing="linear"
-        data-aos-duration="1000"
-      >
-        The Feedback of learners about the course
-      </h2>
+    <section className="border-b border-teal-900">
+      <div className="mt-32 wrapper section-padding">
+        <h2
+          className="text-center text-4xl  lg:text-5xl underline underline-offset-4"
+          data-aos="fade-down"
+          data-aos-easing="linear"
+          data-aos-duration="1000"
+        >
+          The Feedback of learners about the course
+        </h2>
 
-      <div className="learners grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mt-20">
-        {data.map((learner) => (
-          <div
-            key={learner.id}
-            className="learner overflow-hidden bg-slate-900  rounded-2xl shadow-xl p-5 border-2 border-slate-800"
-            data-aos="fade-down"
-            data-aos-easing="linear"
-            data-aos-duration="1000"
-          >
-            <div className="flex gap-5">
-              <img
-                src={learner.image}
-                alt=""
-                className="w-[3rem] h-[3rem] rounded-full"
-              />
-              <h3>{learner.name}</h3>
-            </div>
+        <div className="learners grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mt-20">
+          {data.map((learner) => (
+            <div
+              key={learner.id}
+              className="learner overflow-hidden bg-slate-900  rounded-2xl shadow-xl p-5 border-2 border-slate-800"
+              data-aos="fade-down"
+              data-aos-easing="linear"
+              data-aos-duration="1000"
+            >
+              <div className="flex gap-5">
+                <img
+                  src={learner.image}
+                  alt=""
+                  className="w-[3rem] h-[3rem] rounded-full"
+                />
+                <h3>{learner.name}</h3>
+              </div>
 
-            <div className="ml-16">
-              <p>{learner.star}</p>
-              <p>{learner.description}</p>
+              <div className="ml-16">
+                <p>{learner.star}</p>
+                <p>{learner.description}</p>
+              </div>
             </div>
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
-    </div>
+    </section>
   );
 };
 

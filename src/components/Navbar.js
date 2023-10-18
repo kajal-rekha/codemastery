@@ -24,11 +24,15 @@ const Navbar = () => {
         </span>
       </div>
 
-      <div className="left" data-aos="fade-down" data-aos-duration="1000">
+      <div
+        className="left text-lg"
+        data-aos="fade-down"
+        data-aos-duration="1000"
+      >
         <nav
           className={`${
             toggleOpen
-              ? "flex flex-col fixed z-[2] w-screen h-[calc(screen-5rem)] top-0 bottom-0 left-0 right-0 items-center justify-center text-lg gap-5 text-center backdrop-blur-md"
+              ? "flex flex-col fixed z-[2] top-60 bottom-0 left-0 right-0 items-center justify-center text-lg gap-5 text-center  bg-rose-700"
               : "hidden lg:flex gap-5"
           } `}
         >
@@ -86,7 +90,7 @@ const Navbar = () => {
       <div className="right" data-aos="fade-left" data-aos-duration="1000">
         <a
           href="https://www.youtube.com/@spectra.shohan"
-          className=" py-2 px-5 bg-teal-700 hover:bg-teal-800 rounded-lg duration-500"
+          className=" py-2 px-5 bg-teal-700 hover:bg-teal-800 rounded-lg duration-500 text-lg"
         >
           Subscribe
         </a>

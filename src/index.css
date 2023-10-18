@@ -6,9 +6,9 @@
   overflow: hidden;
 }
 
-body {
+/* body {
   background-color: #0f172a;
-}
+} */
 
 .wrapper {
   @apply container mx-auto px-5 md:px-0;
