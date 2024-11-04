@@ -17,7 +17,7 @@ const Navbar = () => {
   }, [toggleOpen]);
 
   return (
-    <div className="navbar wrapper h-20 flex justify-between items-center border-b border-teal-900 fixed top-0 left-0 right-0 z-[1000] bg-slate-950">
+    <div className="navbar wrapper h-20 flex justify-between items-center border-b border-teal-900 fixed top-0 left-0 right-0 z-[10000] bg-slate-900 ">
       <div className="logo" data-aos="fade-right" data-aos-duration="1000">
         <span className="text-2xl text-gray-100 font-semibold">
           Code<span className="text-teal-500">mastery</span>

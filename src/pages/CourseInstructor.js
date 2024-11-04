@@ -87,11 +87,12 @@ const CourseInstructor = () => {
             data-aos-mirror="true"
             data-aos-once="false"
           >
-            <img
-              src="https://avatars.githubusercontent.com/u/99276071?v=4"
-              alt="instructor-image"
-              className="w-full rounded-lg h-full"
-            />
+           <img
+           src="https://imgcdn.stablediffusionweb.com/2024/4/21/ef5c1523-2585-4e05-8a46-76391f68f5c9.jpg"
+           alt="Instructor smiling at the camera" 
+          className="w-full rounded-lg h-full"
+/>
+
           </div>
         </div>
       </div>
